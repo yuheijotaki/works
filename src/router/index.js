@@ -7,6 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
+  base: process.env.ROOT_BASE, // Vue router を GitHub Pages で動かす用の設定
   routes: [
     {
       path: "/",
