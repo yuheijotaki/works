@@ -6,17 +6,17 @@ GitHub Pages の URL： https://yuheijotaki.github.io/works/
 
 
 
-##使用した技術 
+## 使用した技術
 
 - HTML / CSS（.scss）/ JavaScript
 - WordPress（もともと作っていた自分のWebサイト）
-  - REST API
+  - REST API https://works.yuheijotaki.com/wp-json/wp/v2/posts
   - カスタムフィールド
 - Vue.js
   - Vue CLI
   - vue-router
 
-
+![flow](./src/assets/flow.png)
 
 ## 実現できたこと
 
@@ -38,3 +38,4 @@ GitHub Pages の URL： https://yuheijotaki.github.io/works/
 
 仮に Vue.js を用いた案件を担当する場合、現状だとミニマムな仕様の案件 or 他のどなたかがベースを構築した案件やヘルプでの対応でしか対応ができなさそうに感じています。  
 また Vue.js に関する知識不足も少なくない段階ですが、ピュアな JavaScript の知識も同時に身につけていかないとなかなか難しいと感じています。
+
